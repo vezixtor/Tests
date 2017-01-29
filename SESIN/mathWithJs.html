@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Minha pagina</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!--Inclua corretamente os objetos necess�rios para Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--Inclua os recursos customizados de CSS e JavaScript/JQuery implementados-->
+
+  </head>
+  <body>
+    <div class="container">
+      <center><h3>Matemática com JavaScript</h3></center><br>
+      <h6>Aqui o objetivo é criar um simples aplicativo que consiga trabalhar com as quatro operações matemáticas
+        de forma que independente do que o usuário inputar, seja considerado como critério de operação.</h6><br>
+      <center>
+        <input type="text" class="input1 input-lg" id="txtVa1" name="txtVal1" value="" placeholder="Variável">
+        <input type="text" class="input2 input-lg" id="txtOpr" name="txtOpr" value="" placeholder="Operador">
+        <input type="text" class="input3 input-lg" id="txtVal2" name="txtVal2" value="" placeholder="Variável">
+        <input type="text" class="input4 input-lg" id="txtRep" name="txtResp" value="" placeholder="Resultado">
+      <center>
+      <br>
+      <center>
+        <button class="btn btn-default" id="btnExec" name="btnExec" onclick="">Executar</button>
+        <button class="btn btn-default" id="btnClear" name="btnClear" onclick="">Limpar</button>
+      </center>
+    </div>
+
+    <!-- Inclua corretamente os objetos necess�rios para Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Inclua os recursos customizados de CSS e JavaScript/JQuery implementados-->
+    <script src="mathWithJs.js"></script>
+  </body>
+</html>
